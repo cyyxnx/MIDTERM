@@ -1,0 +1,86 @@
+body {
+    background-image: url(assets/food1.png); /* Background image */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    text-align: justify;
+}
+
+.header {
+    margin: 0;
+    background-color: #bd904f; /* Header background color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px; /* Adjust the height of the logo */
+    
+}
+
+nav {
+    font-family: Arial, sans-serif;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: rgb(255, 228, 96); /* Hover color for navigation links */
+}
+
+.about {
+    background-color: rgba(255, 255, 255, 0.9); /* Background color for the sections */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+    height: 500px; /* Set a fixed height */
+    overflow: auto; /* Add scrollbars if content overflows */
+}
+
+.about h2 {
+    color: #cca459; /* Color for headings */
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.about p {
+    line-height: 1.6; /* Line height for paragraphs */
+    margin-bottom: 20px; /* Add space between paragraphs */
+    font-size: 20px;
+}
+
+
+
+.details {
+    background-color: rgba(255, 255, 255, 0.9); /* Background color for the sections */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+    height: 500px; /* Set a fixed height */
+    overflow: auto; /* Add scrollbars if content overflows */
+}
+
+.details h3 {
+    color: #FFA500; /* Color for headings */
+    font-size: 35px;
+    text-align: center;
+}
+
+.details p {
+    line-height: 1.6; /* Line height for paragraphs */
+    margin-bottom: 20px; /* Add space between paragraphs */
+    font-size: 20px;
+}
